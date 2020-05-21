@@ -10,8 +10,8 @@ body {
   font-family: 'PT Sans Narrow Bold';
   src: url('PTSans-NarrowBold.eot');
   src: url('PTSans-NarrowBold.eot?#iefix') format('embedded-opentype'),
-  url('ptsansnarrowbold.woff') format('woff'),
-  url('PTS75F.ttf') format('truetype');
+  url('../static/fonts/ptsansnarrowbold.woff') format('woff'),
+  url('../static/fonts/PTS75F.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
