@@ -57,6 +57,12 @@ body {
   height: 200px;
   margin: 10px 25px;
   overflow: hidden;
+  cursor: pointer;
+  transition: 300ms ease;
+}
+
+.grid__preview:hover {
+  transform: scale(1.1);
 }
 
 .grid__preview-item {
