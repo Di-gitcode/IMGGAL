@@ -1,0 +1,77 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+@font-face {
+  font-family: 'PT Sans Narrow Bold';
+  src: url('PTSans-NarrowBold.eot');
+  src: url('PTSans-NarrowBold.eot?#iefix') format('embedded-opentype'),
+  url('../static/fonts/ptsansnarrowbold.woff') format('woff'),
+  url('../static/fonts/PTS75F.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'PT Sans Narrow Bold', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  background-color: lightslategrey;
+}
+
+.main__wrapper {
+  background-color: lightsteelblue;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.main__container_center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main__header {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.main__grid {
+  width: 780px;
+  margin: 0 auto;
+}
+
+.main__popup {
+  display: none;
+}
+
+.grid__preview {
+  display: inline-block;
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+  margin: 10px 25px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 300ms ease;
+}
+
+.grid__preview:hover {
+  transform: scale(1.1);
+}
+
+.grid__preview-item {
+  width: 100%;
+  padding: 10px;
+}
+
+.popup {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%) translateY(40%);
+}
