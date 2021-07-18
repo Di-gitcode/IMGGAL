@@ -107,7 +107,12 @@ body {
   z-index: 2;
 }
 
-iframe {
+.main__weather {
   width: 200px;
   height: 300px;
+  position: absolute;
+  top: 5%;
+  right: 10%;
+  z-index: 1;
+  overflow: hidden;
 }
